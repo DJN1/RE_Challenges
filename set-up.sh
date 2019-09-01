@@ -5,7 +5,7 @@ echo "deb https://http.kali.org/kali kali-rolling main non-free contrib" > /etc/
 apt update
 dpkg --add-architecture i386
 apt update && apt upgrade -y
-apt install pkg-config libssl-dev bc libreoffice -y
+apt install gcc-go pkg-config libssl-dev bc libreoffice -y
 
 mkdir ~/RE_Challenges/Help/C/Source-Code
 mkdir ~/RE_Challenges/Help/C++
