@@ -8,7 +8,9 @@ apt update && apt upgrade -y
 apt install pkg-config libssl-dev bc libreoffice -y
 
 mkdir ~/RE_Challenges/Help/C/Source-Code
+mkdir ~/RE_Challenges/Help/C++
 mkdir ~/RE_Challenges/Help/C++/Source-Code
+mkdir ~/RE_Challenges/Help/Go
 mkdir ~/RE_Challenges/Help/Go/Source-Code
 
 cd ~/RE_Challenges/Challenges/C
@@ -18,14 +20,14 @@ make all
 mv *.c ~/RE_Challenges/Help/C/Source-Code
 mv makefile ~/RE_Challenges/Help/C/Source-Code
 
-cd ~/RE_Challenges/Help/C++/Source-Code
+cd ~/RE_Challenges/Challenges/C++
 
 make all
 
 mv *.cpp ~/RE_Challenges/Help/C++/Source-Code
 mv makefile ~/RE_Challenges/Help/C++/Source-Code
 
-cd ~/RE_Challenges/Help/Go/Source-Code
+cd ~/RE_Challenges/Challenges/Go
 
 make all
 
